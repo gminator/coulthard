@@ -51,12 +51,12 @@ def write_to_file(file_path, content):
 def page_to_markdown(url, updated):
 	
 	base = os.path.basename(url)
-	file = os.path.join(os.getcwd(), "RAG", updated[:7].replace("-","/"), os.path.basename(base))
+	file = os.path.join(os.getcwd(), "RAG",  "%s.%s" % (updated[:10], os.path.basename(base)))
 	
 	if os.path.isfile(file):
 		return (file, "Skipped", updated)
 
-	path = os.path.join(os.getcwd(), "RAG", updated[:7].replace("-","/"))
+	path = os.path.join(os.getcwd(), "RAG", )
 	create_folder(path) 
 	res = requests.get(url)
 	soup = BeautifulSoup(res.text)
@@ -65,9 +65,12 @@ def page_to_markdown(url, updated):
 	write_to_file(file, content.text)
 	return (base, "Created", updated)
 
-raise Exception(fetch_sitemap())
 
-# i = 0
-# while True:
-# 	i += 1
-# 	tree = fetch_sitemap(i)
+i = 0
+while True:
+	i += 1
+	try:
+		tree = fetch_sitemap(i)
+	except SiteMapNotFound as e: pass
+	except Exception as e: print(e)
+	
