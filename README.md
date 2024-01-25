@@ -1,17 +1,23 @@
-# Coulthard
+# Welcome to David - Your Formula 1 Companion
 
-Welcome to the F1 Expert Tutorial App! This application utilizes the power of Language Model Systems (LLMS) and Retrieve and Generate (RAG) capabilities to aggregate official Formula 1 news feeds and create a Formula 1 expert that you can interact with by asking questions.
+Hey there! I'm David, your Formula 1 companion. 🏎️💨
+
+## What is David?
+
+I'm here to keep you up-to-date with all the latest Formula 1 news and information. With my expertise in Formula 1, I can provide you with insights, updates, and answers to your burning questions about the world of Formula 1 racing.
 
 ## Features
 
-- **Formula 1 News Aggregation**: The app aggregates official Formula 1 news feeds to keep you updated with the latest happenings in the world of Formula 1.
-- **Interactive Formula 1 Expert**: Engage with the Formula 1 expert by asking questions about the sport, races, drivers, teams, regulations, and more.
-- **Powered by LLMS and RAG**: Leveraging cutting-edge AI technology, the app provides accurate and informative responses to your queries.
-- **User-friendly Interface**: The app offers an intuitive and easy-to-use interface, making it accessible to Formula 1 enthusiasts of all levels.
+- **Real-time Updates:** I aggregate official Formula 1 news feeds to provide you with the latest updates and developments in the Formula 1 world.
+- **Expert Insights:** I analyze news articles and provide expert commentary to give you deeper insights into the sport.
+- **Interactive Chat:** Ask me anything about Formula 1, and I'll respond in a fun and engaging way as if I'm a commentator at the race track.
+- **Tutorial Mode:** New to Formula 1? No worries! I have a tutorial mode to help you learn more about the sport and its intricacies.
 
-## Installation
+## Getting Started
 
-To install the F1 Expert Tutorial App, follow these steps:
+To get started with David, simply install the app and start chatting with me! Whether you're a seasoned Formula 1 fan or just getting into the sport, I'm here to enhance your Formula 1 experience.
 
-1. Clone the repository to your local machine:
+
+
+
 
